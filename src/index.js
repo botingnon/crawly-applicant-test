@@ -56,7 +56,7 @@ async function work() {
         const patternAnswer = /<span id="answer">(\d*)<\/span>/g
         const [, answer] = patternAnswer.exec(answerContent);
     
-        console.log('RESPOSTA: ' + answer);
+        console.log(`RESPOSTA: ${answer}`);
 
         process.exit(0);
     } catch (error) {
