@@ -1,0 +1,17 @@
+{
+  "name": "crawly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "proxy": "node ./src/index.js --with-proxy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "tor-request": "^3.1.0"
+  }
+}
