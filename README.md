@@ -8,6 +8,11 @@ Aplicação simples para recuperar resposta na página informada.
 npm install
 ```  
 
+## Iniciando o projeto (sem proxy)
+```
+npm start
+```  
+
 ## Iniciando o projeto com proxy (Tor Client)
 ```
 npm run proxy
